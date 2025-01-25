@@ -1,0 +1,421 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.homeSection
+{
+  min-height: 100vh;
+}
+.BACKBB {
+  background-image: url(../image/slideshow-1.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.backP {
+  background-image: url(../image/slideshow-2.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.back {
+  background-image: url(../image/slideshow-3.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+.carousel-caption {
+  transform: translateY(-25%);
+}
+.fontS {
+  font-size: 5rem !important;
+}
+.btnPositon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  padding: 5px;
+}
+.pos {
+  left: 0% !important;
+}
+.btnPositon:hover {
+background-color: white !important;
+}
+.m-auto .fontS {
+  max-width: 50%;
+}
+.nav-link:hover {
+  color: #f25454 !important;
+}
+.nav-item {
+  transition: 0.5s all;
+}
+.nav-link.active {
+  color: #f25454 !important;
+}
+.mouse {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 40px;
+  height: 60px;
+  margin: auto;
+  border-radius: 25px;
+  border: 2px solid white;
+  text-align: center;
+  transition: all 0.5s;
+}
+.mouse h4::after {
+  content: ".";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: white;
+  /* background-color: #f25454; */
+  height: 50px;
+}
+.mouse:hover {
+  border: 2px solid #f25454;
+}
+.mouse h4::after:hover {
+  color: #f25454 !important;
+}
+.settings {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(10, 10, 10);
+  position: fixed;
+  top: 25%;
+}
+.settings:hover
+{
+    background-color: rgb(78, 78, 78);
+}
+.sec2H
+{
+    max-width: 900px;
+}
+.sec2H .fs-1
+{
+position: relative;
+font-weight: 800;
+font-size: 47px !important;
+}
+.sec2H .fs-1::before
+{
+    content: "A";
+    font-size: 2em;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+    bottom: 10px;
+    color: rgb(214, 214, 214);
+    z-index: -1;
+    font-weight: 700;
+}
+.line
+{
+    margin: auto;
+    width: 40px;
+    border: black 1px solid;
+    transition: all .5s;
+}
+.sec2H:hover .line
+{
+    width: 100px;
+}
+.sec2P
+{
+    font-size: 14px;
+}
+/* // */
+
+.progress
+{
+    height: 5px;
+}
+.progress-bar
+{
+    overflow: visible;
+    background-color: #f25454 !important;
+}
+.progress-value
+{
+    width: 65%;
+    text-align: right;
+    font-size: 14px;
+}
+.progress-title
+{
+    font-size: 14px;
+}
+.progress-value1
+{
+    width: 80%;
+    text-align: right;
+    font-size: 14px;
+}
+.progress-value2
+{
+    width: 60%;
+    text-align: right;
+    font-size: 14px;
+}
+.progress-value3
+{
+    width: 50%;
+    text-align: right;
+    font-size: 14px;
+}
+/*  */
+.sec3H
+{
+    max-width: 900px;
+}
+.sec3H .fs-1
+{
+position: relative;
+font-weight: 800;
+font-size: 47px !important;
+}
+
+.sec3H .fs-1::before
+{
+    content: "O";
+    font-size: 2em;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+    bottom: 10px;
+    color: rgb(214, 214, 214);
+    z-index: -1;
+    font-weight: 700;
+}
+.sec3H:hover .line
+{
+  width: 100px;
+}
+.line
+{
+  transition: all .5s;
+}
+.memHover
+{
+  transition: .1s;
+  background-color: rgba(242, 84, 84, 0.85);
+}
+.partner:hover .memHover
+{
+  visibility: visible !important;
+}
+.pho
+{
+  transition: .5s;
+}
+.partner:hover .pho{
+  transform: scale(1.2);
+  overflow: hidden;
+}
+.partner:hover .pink
+{
+  color: #f25454;
+}
+.btn
+{
+  transition: .3s;
+  background-color: #f25454 !important;
+}
+.btn:hover
+{
+  background-color: #e38b8b !important;
+}
+.sec4H
+{
+    max-width: 900px;
+}
+.sec4H .fs-1
+{
+position: relative;
+font-weight: 800;
+font-size: 47px !important;
+}
+
+.sec4H .fs-1::before
+{
+    content: "S";
+    font-size: 2em;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+    bottom: 10px;
+    color: rgb(214, 214, 214);
+    z-index: -1;
+    font-weight: 700;
+}
+.sec4H:hover .line
+{
+  width: 100px;
+}
+.color
+{
+  color: black;
+  font-size: 18px;
+}
+.design:hover .color
+{
+  color: #f25454 !important;
+}
+.font-size
+{
+  font-size: 14px !important;
+}
+.fa-solid
+{
+  margin-left: -40px;
+  font-size: 30px;
+  color: #f25454;
+}
+.sec5H
+{
+    max-width: 900px;
+}
+.sec5H .fs-1
+{
+position: relative;
+font-weight: 800;
+font-size: 47px !important;
+}
+
+.sec5H .fs-1::before
+{
+    content: "C";
+    font-size: 2em;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+    bottom: 10px;
+    color: rgb(214, 214, 214);
+    z-index: -1;
+    font-weight: 700;
+}
+.sec5H:hover .line
+{
+  width: 100px;
+}
+/*  */
+.sec6H
+{
+    max-width: 900px;
+}
+.sec6H .fs-1
+{
+position: relative;
+font-weight: 800;
+font-size: 47px !important;
+}
+
+.sec6H .fs-1::before
+{
+    content: "G";
+    font-size: 2em;
+    position: absolute;
+    right: 50%;
+    transform: translate(50%);
+    bottom: 10px;
+    color: rgb(214, 214, 214);
+    z-index: -1;
+    font-weight: 700;
+}
+.sec6H:hover .line
+{
+  width: 100px;
+}
+/*  */
+.content2:hover h4
+{
+  color: #f25454;
+}
+.content2 h4
+{
+  transition: .5s;
+}
+.btn-mess
+{
+  background-color: #f25454;
+  border: 0ch;
+  color: white;
+  border-radius: 5px;
+  transition: .5s;
+}
+.btn-mess:hover
+{
+  background-color: #e38b8b !important;
+}
+/*  */
+.pad
+{
+  margin: 0 !important;
+}
+.prag a
+{
+  text-decoration: none;
+}
+.list-unstyled
+{
+  margin-left: -35px;
+}
+.butns .btn
+{
+  background-color: transparent !important;
+  color: white;
+}
+.footer
+{
+  background-color: rgb(31, 31, 31);
+  background-image: url(../image/dotted-map.png) !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
+.butns .btn
+{
+  border: white solid 1px;
+  margin: 3px;
+}
+.butns .btn:hover
+{
+  color: #f25454;
+}
+.ancHover:hover
+{
+  color: #f25454 !important;
+}
+.ancHover
+{
+  transition: .5s;
+}
+.fa-chevron-up 
+{
+  background-color: rgba(227, 139, 139,.7);
+  border-radius: 50%;
+  transition: .3s;
+}
+.fa-chevron-up
+{
+  transform: translateY(-50%);
+}
+.fa-chevron-up:hover
+{
+  background-color: #f25454;
+}
+.trans
+{
+  transform: translateX(-25%);
+}
+/*     */
+.sec7 .lastHov:hover
+{
+  color: #f25454 !important;
+}
+.lastHov
+{
+  transition: .3s;
+}
