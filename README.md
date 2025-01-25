@@ -1,2 +1,2 @@
 # Angora
-html5 ,cs ,js ,
+html5 ,css ,js ,
